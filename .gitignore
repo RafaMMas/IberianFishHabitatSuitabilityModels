@@ -50,3 +50,7 @@ rsconnect/
 
 
 Vells/
+.Rproj.user
+.Rdata
+.DS_Store
+.quarto
