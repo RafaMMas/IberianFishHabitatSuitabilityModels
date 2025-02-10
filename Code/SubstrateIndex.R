@@ -1,12 +1,12 @@
 SubstrateIndex <- function(Substrate = NA,
-                           vegetation = NA,
-                           silt = NA,
-                           sand = NA,
-                           fine.gravel = NA,
-                           gravel = NA,
-                           cobbles = NA,
-                           boulders = NA,
-                           bed.rock = NA, check.completeness = TRUE) {
+                           Vegetation = NA,
+                           Silt = NA,
+                           Sand = NA,
+                           Fine.gravel = NA,
+                           Gravel = NA,
+                           Cobbles = NA,
+                           Boulders = NA,
+                           Bed.rock = NA, check.completeness = TRUE) {
   if (!is.na(Substrate) &
     any(
       !is.na(vegetation),
