@@ -9,14 +9,14 @@ SubstrateIndex <- function(Substrate = NA,
                            Bed.rock = NA, check.completeness = TRUE) {
   if (!is.na(Substrate) &
     any(
-      !is.na(vegetation),
-      !is.na(silt),
-      !is.na(sand),
-      !is.na(fine.gravel),
-      !is.na(gravel),
-      !is.na(cobbles),
-      !is.na(boulders),
-      !is.na(bed.rock)
+      !is.na(Vegetation),
+      !is.na(Silt),
+      !is.na(Sand),
+      !is.na(Fine.gravel),
+      !is.na(Gravel),
+      !is.na(Cobbles),
+      !is.na(Boulders),
+      !is.na(Bed.rock)
     )) {
     stop("Data may be duplicated")
   }
